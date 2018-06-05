@@ -1,0 +1,18 @@
+<head>
+    <meta charset="utf8">
+    <title>My serveless chat </title>
+</head>
+<body>
+    <dir>
+        <form role="form" id='message-form'>
+            <label for="Text">Message</label>
+            <input type="text" name="message" id='message-box'>
+            <input type="submit" value="submit" id='send-button'>
+        </form>
+    </dir>
+    <div id='connecting-div'><p>Connecting to AWS IoT platform</p></div>
+    <div id='connected-div'></div> 
+    <div id="chat"></div>
+    <script src="aws-iot-sdk-browser-bundle.js"></script>
+    <script src="bundle.js"></script>
+</body>
