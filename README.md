@@ -4,12 +4,15 @@ serverless Chat using AWS IoT endpoint
 
  1.npm install aws-iot-device-sdk
 
-2.En el folder Path/To/Project/node_modules/aws-iot-device-sdk
+2.En el folder 
+ 
+ Path/To/Project/node_modules/aws-iot-device-sdk
         
         npm run-script browserize
  
- 3.El script index js puede esta en donde sea, en este script programas toda la aplicacion
-     una ves que tiene todo el código creas bundle.js que sera els script en el navegador
+ 3.El script index js puede estar en donde sea. En este script programas toda la aplicacion
+     una vez que tienes todo el código creas el  bundle.js que será el script en el navegador
+     
      En  Path/To/Project/node_modules/aws-iot-device-sdk
         
         npm run-script browserize Path/to/index.js
