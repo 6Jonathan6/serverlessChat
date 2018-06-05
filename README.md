@@ -1,8 +1,10 @@
 # serverlessChat
 
 serverless Chat using AWS IoT endpoint
+
  1.npm install aws-iot-device-sdk
- 2.En el folder Path/To/Project/node_modules/aws-iot-device-sdk
+
+2.En el folder Path/To/Project/node_modules/aws-iot-device-sdk
         
         npm run-script bowserize
  
