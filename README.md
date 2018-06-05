@@ -16,5 +16,6 @@ serverless Chat using AWS IoT endpoint
  
  4. El script anterior crea los archivo aws-iot-sdk-browser-bundle.js y bundle.js
         en el directorio de index.js ya solo que agregar el código en el index.html
+        
         <script src="aws-iot-sdk-browser-bundle.js"></script>
         <script src="bundle.js"></script>
